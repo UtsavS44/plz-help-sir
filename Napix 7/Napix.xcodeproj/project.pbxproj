@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F24DD2BDDA5FA0033F5D5 /* ActiveAlertOnAlertBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F24DC2BDDA5FA0033F5D5 /* ActiveAlertOnAlertBoardViewController.swift */; };
+		3F0F24DF2BDDA6230033F5D5 /* DrivingSafelyOnAlertBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F24DE2BDDA6230033F5D5 /* DrivingSafelyOnAlertBoardViewController.swift */; };
+		3F0F24E12BDDA6370033F5D5 /* ScheduledOnAlertBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F24E02BDDA6370033F5D5 /* ScheduledOnAlertBoardViewController.swift */; };
+		3F14BB112BE8BB2400377D12 /* DDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F14BB102BE8BB2400377D12 /* DDModel.mlmodel */; };
+		3F14BB152BE8BCD500377D12 /* EndMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14BB142BE8BCD500377D12 /* EndMViewController.swift */; };
+		3F14BB172BE8F12C00377D12 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14BB162BE8F12C00377D12 /* cameraViewController.swift */; };
+		3F1E31B72BEB44700082DF05 /* face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E31B62BEB44700082DF05 /* face.mp3 */; };
+		3F3B76DC2BCFE43500746745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B76DB2BCFE43500746745 /* AppDelegate.swift */; };
+		3F3B76DE2BCFE43500746745 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B76DD2BCFE43500746745 /* SceneDelegate.swift */; };
+		3F3B76E32BCFE43500746745 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B76E22BCFE43500746745 /* Base */; };
+		3F3B76E52BCFE43600746745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B76E42BCFE43600746745 /* Assets.xcassets */; };
+		3F3B76E82BCFE43600746745 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B76E72BCFE43600746745 /* Base */; };
+		3F3B76F42BCFEDEF00746745 /* AlertBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B76F32BCFEDEF00746745 /* AlertBoardViewController.swift */; };
+		3F3B76F62BCFEE0600746745 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B76F52BCFEE0600746745 /* VehicleListViewController.swift */; };
+		3F3B76F82BCFEE1200746745 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B76F72BCFEE1200746745 /* ProfileViewController.swift */; };
+		3F47C3372BE3C946005B1083 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C3362BE3C946005B1083 /* FirebaseAuth */; };
+		3F47C3392BE3C946005B1083 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C3382BE3C946005B1083 /* FirebaseAuthCombine-Community */; };
+		3F47C33B2BE3C946005B1083 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C33A2BE3C946005B1083 /* FirebaseDatabase */; };
+		3F47C33D2BE3C946005B1083 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C33C2BE3C946005B1083 /* FirebaseDatabaseSwift */; };
+		3F47C33F2BE3C946005B1083 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C33E2BE3C946005B1083 /* FirebaseFirestore */; };
+		3F47C3412BE3C946005B1083 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C3402BE3C946005B1083 /* FirebaseFirestoreCombine-Community */; };
+		3F47C3432BE3C946005B1083 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F47C3422BE3C946005B1083 /* FirebaseFirestoreSwift */; };
+		3F7836DC2BE9E67A0007DFFD /* FDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F7836DB2BE9E67A0007DFFD /* FDModel.mlmodel */; };
+		3F7BF2F72BE3C288003973B7 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF2F62BE3C288003973B7 /* gif.swift */; };
+		3F7BF2F92BE3C28E003973B7 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F7BF2F82BE3C28E003973B7 /* giphy.gif */; };
+		3F7BF2FB2BE3C294003973B7 /* output-onlinegiftools.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F7BF2FA2BE3C294003973B7 /* output-onlinegiftools.gif */; };
+		3F7BF2FD2BE3C2C0003973B7 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF2FC2BE3C2C0003973B7 /* Users.swift */; };
+		3F7BF2FF2BE3C2CF003973B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7BF2FE2BE3C2CF003973B7 /* GoogleService-Info.plist */; };
+		3F7BF30B2BE3C2E7003973B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3022BE3C2E7003973B7 /* LoginViewController.swift */; };
+		3F7BF30C2BE3C2E7003973B7 /* DriverLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3032BE3C2E7003973B7 /* DriverLoginViewController.swift */; };
+		3F7BF30D2BE3C2E7003973B7 /* EditProfileOfDriverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3042BE3C2E7003973B7 /* EditProfileOfDriverTableViewController.swift */; };
+		3F7BF30E2BE3C2E7003973B7 /* MonitorMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3052BE3C2E7003973B7 /* MonitorMeViewController.swift */; };
+		3F7BF3102BE3C2E7003973B7 /* LogisticLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3072BE3C2E7003973B7 /* LogisticLoginViewController.swift */; };
+		3F7BF3112BE3C2E7003973B7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF3082BE3C2E7003973B7 /* SignUpViewController.swift */; };
+		3F8091CA2BDF6C36007FE0DF /* ScheduledAlertsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8091C92BDF6C36007FE0DF /* ScheduledAlertsTableViewCell.swift */; };
+		3F8091CC2BDFA277007FE0DF /* showVehiclesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8091CB2BDFA277007FE0DF /* showVehiclesListTableViewCell.swift */; };
+		3F8091CE2BDFA828007FE0DF /* DrivingSafelyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8091CD2BDFA828007FE0DF /* DrivingSafelyTableViewCell.swift */; };
+		3F8091D02BDFA9C8007FE0DF /* ActiveAlertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8091CF2BDFA9C8007FE0DF /* ActiveAlertTableViewCell.swift */; };
+		3FACE9512BE3618C00475536 /* EditProfileOfVehicleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACE9502BE3618C00475536 /* EditProfileOfVehicleTableViewController.swift */; };
+		3FACE9532BE37F5A00475536 /* AddVehicleDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACE9522BE37F5A00475536 /* AddVehicleDataTableViewController.swift */; };
+		3FBF287C2BE679230009F799 /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF287B2BE679230009F799 /* SoundsViewController.swift */; };
+		3FBF28842BE6E1920009F799 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF28832BE6E1920009F799 /* beep.mp3 */; };
+		3FBF4F9E2BD11F9200AB59FC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF4F9D2BD11F9200AB59FC /* DataModel.swift */; };
+		3FCCC1AC2BE0C2A0002C4A60 /* AlertTimmingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCC1AB2BE0C2A0002C4A60 /* AlertTimmingsViewController.swift */; };
+		3FCCC1AE2BE0C2B3002C4A60 /* AlertTimmingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCC1AD2BE0C2B3002C4A60 /* AlertTimmingsTableViewCell.swift */; };
+		3FCCC1B62BE0E249002C4A60 /* ShowDriverListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCC1B52BE0E249002C4A60 /* ShowDriverListTableViewCell.swift */; };
+		3FD505F02BDADDC0001A4C35 /* vehicleNumberDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD505EF2BDADDC0001A4C35 /* vehicleNumberDisplayCell.swift */; };
+		3FD505F72BDAFAC4001A4C35 /* MyDriversListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD505F62BDAFAC4001A4C35 /* MyDriversListViewController.swift */; };
+		3FD505F92BDAFB28001A4C35 /* MyDriversDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD505F82BDAFB28001A4C35 /* MyDriversDisplayTableViewCell.swift */; };
+		3FE391D22BDB651200D002EC /* showVehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE391D12BDB651200D002EC /* showVehicleListViewController.swift */; };
+		3FE391D42BDB696800D002EC /* showDriversListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE391D32BDB696800D002EC /* showDriversListViewController.swift */; };
+		3FE52CB52BE1703B0085E044 /* AddDriversDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52CB42BE1703B0085E044 /* AddDriversDataTableViewController.swift */; };
+		3FE52CB92BE171D50085E044 /* NewAlertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52CB82BE171D50085E044 /* NewAlertTableViewController.swift */; };
+		3FE52CBB2BE1726C0085E044 /* RescheduleTheTruckOnAlertBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52CBA2BE1726C0085E044 /* RescheduleTheTruckOnAlertBoardTableViewController.swift */; };
+		6F6FC9ED2BED3254009AB62F /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6FC9EB2BED3254009AB62F /* Green.png */; };
+		6F6FC9EE2BED3254009AB62F /* RedImageNotFound.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6FC9EC2BED3254009AB62F /* RedImageNotFound.png */; };
+		6FFB67F52BEDE499005C62E2 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB67F42BEDE499005C62E2 /* BlackViewController.swift */; };
+		6FFB67F92BEE0A92005C62E2 /* monitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB67F82BEE0A92005C62E2 /* monitor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0F24DC2BDDA5FA0033F5D5 /* ActiveAlertOnAlertBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveAlertOnAlertBoardViewController.swift; sourceTree = "<group>"; };
+		3F0F24DE2BDDA6230033F5D5 /* DrivingSafelyOnAlertBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingSafelyOnAlertBoardViewController.swift; sourceTree = "<group>"; };
+		3F0F24E02BDDA6370033F5D5 /* ScheduledOnAlertBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledOnAlertBoardViewController.swift; sourceTree = "<group>"; };
+		3F14BB102BE8BB2400377D12 /* DDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DDModel.mlmodel; sourceTree = "<group>"; };
+		3F14BB142BE8BCD500377D12 /* EndMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndMViewController.swift; sourceTree = "<group>"; };
+		3F14BB162BE8F12C00377D12 /* cameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		3F1E31B62BEB44700082DF05 /* face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = face.mp3; sourceTree = "<group>"; };
+		3F3B76D82BCFE43500746745 /* Napix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Napix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B76DB2BCFE43500746745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3B76DD2BCFE43500746745 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F3B76E22BCFE43500746745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3B76E42BCFE43600746745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3B76E72BCFE43600746745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3B76E92BCFE43600746745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3B76F32BCFEDEF00746745 /* AlertBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBoardViewController.swift; sourceTree = "<group>"; };
+		3F3B76F52BCFEE0600746745 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
+		3F3B76F72BCFEE1200746745 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3F7836DB2BE9E67A0007DFFD /* FDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FDModel.mlmodel; sourceTree = "<group>"; };
+		3F7BF2F62BE3C288003973B7 /* gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
+		3F7BF2F82BE3C28E003973B7 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		3F7BF2FA2BE3C294003973B7 /* output-onlinegiftools.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "output-onlinegiftools.gif"; sourceTree = "<group>"; };
+		3F7BF2FC2BE3C2C0003973B7 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		3F7BF2FE2BE3C2CF003973B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F7BF3022BE3C2E7003973B7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F7BF3032BE3C2E7003973B7 /* DriverLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverLoginViewController.swift; sourceTree = "<group>"; };
+		3F7BF3042BE3C2E7003973B7 /* EditProfileOfDriverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileOfDriverTableViewController.swift; sourceTree = "<group>"; };
+		3F7BF3052BE3C2E7003973B7 /* MonitorMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorMeViewController.swift; sourceTree = "<group>"; };
+		3F7BF3072BE3C2E7003973B7 /* LogisticLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogisticLoginViewController.swift; sourceTree = "<group>"; };
+		3F7BF3082BE3C2E7003973B7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3F8091C92BDF6C36007FE0DF /* ScheduledAlertsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledAlertsTableViewCell.swift; sourceTree = "<group>"; };
+		3F8091CB2BDFA277007FE0DF /* showVehiclesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showVehiclesListTableViewCell.swift; sourceTree = "<group>"; };
+		3F8091CD2BDFA828007FE0DF /* DrivingSafelyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingSafelyTableViewCell.swift; sourceTree = "<group>"; };
+		3F8091CF2BDFA9C8007FE0DF /* ActiveAlertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveAlertTableViewCell.swift; sourceTree = "<group>"; };
+		3FACE9502BE3618C00475536 /* EditProfileOfVehicleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileOfVehicleTableViewController.swift; sourceTree = "<group>"; };
+		3FACE9522BE37F5A00475536 /* AddVehicleDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleDataTableViewController.swift; sourceTree = "<group>"; };
+		3FBF287B2BE679230009F799 /* SoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
+		3FBF28832BE6E1920009F799 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		3FBF4F9D2BD11F9200AB59FC /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		3FCCC1AB2BE0C2A0002C4A60 /* AlertTimmingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTimmingsViewController.swift; sourceTree = "<group>"; };
+		3FCCC1AD2BE0C2B3002C4A60 /* AlertTimmingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTimmingsTableViewCell.swift; sourceTree = "<group>"; };
+		3FCCC1B52BE0E249002C4A60 /* ShowDriverListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDriverListTableViewCell.swift; sourceTree = "<group>"; };
+		3FD505EF2BDADDC0001A4C35 /* vehicleNumberDisplayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleNumberDisplayCell.swift; sourceTree = "<group>"; };
+		3FD505F62BDAFAC4001A4C35 /* MyDriversListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDriversListViewController.swift; sourceTree = "<group>"; };
+		3FD505F82BDAFB28001A4C35 /* MyDriversDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDriversDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		3FE391D12BDB651200D002EC /* showVehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showVehicleListViewController.swift; sourceTree = "<group>"; };
+		3FE391D32BDB696800D002EC /* showDriversListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showDriversListViewController.swift; sourceTree = "<group>"; };
+		3FE52CB42BE1703B0085E044 /* AddDriversDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDriversDataTableViewController.swift; sourceTree = "<group>"; };
+		3FE52CB82BE171D50085E044 /* NewAlertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlertTableViewController.swift; sourceTree = "<group>"; };
+		3FE52CBA2BE1726C0085E044 /* RescheduleTheTruckOnAlertBoardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescheduleTheTruckOnAlertBoardTableViewController.swift; sourceTree = "<group>"; };
+		6F6FC9EB2BED3254009AB62F /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		6F6FC9EC2BED3254009AB62F /* RedImageNotFound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedImageNotFound.png; sourceTree = "<group>"; };
+		6FFB67F42BEDE499005C62E2 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
+		6FFB67F82BEE0A92005C62E2 /* monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monitor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3B76D52BCFE43500746745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F47C33D2BE3C946005B1083 /* FirebaseDatabaseSwift in Frameworks */,
+				3F47C33B2BE3C946005B1083 /* FirebaseDatabase in Frameworks */,
+				3F47C3372BE3C946005B1083 /* FirebaseAuth in Frameworks */,
+				3F47C3432BE3C946005B1083 /* FirebaseFirestoreSwift in Frameworks */,
+				3F47C3412BE3C946005B1083 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				3F47C33F2BE3C946005B1083 /* FirebaseFirestore in Frameworks */,
+				3F47C3392BE3C946005B1083 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F124B232BD8B9C000325297 /* DriversInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3F9EE2732BE3C0BC0010AB37 /* Users */,
+				3F9EE2722BE3C0A90010AB37 /* Gif */,
+				3F124B292BD8BA7000325297 /* ViewControllers */,
+			);
+			path = DriversInterface;
+			sourceTree = "<group>";
+		};
+		3F124B242BD8B9DC00325297 /* LogisticInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3FD505EE2BDADD91001A4C35 /* View */,
+				3F124B282BD8BA4B00325297 /* ViewControllers */,
+			);
+			path = LogisticInterface;
+			sourceTree = "<group>";
+		};
+		3F124B262BD8BA0700325297 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF4F9D2BD11F9200AB59FC /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		3F124B282BD8BA4B00325297 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B76F32BCFEDEF00746745 /* AlertBoardViewController.swift */,
+				3F3B76F72BCFEE1200746745 /* ProfileViewController.swift */,
+				3F3B76F52BCFEE0600746745 /* VehicleListViewController.swift */,
+				3FACE9522BE37F5A00475536 /* AddVehicleDataTableViewController.swift */,
+				3FE391D12BDB651200D002EC /* showVehicleListViewController.swift */,
+				3FD505F62BDAFAC4001A4C35 /* MyDriversListViewController.swift */,
+				3FE52CB42BE1703B0085E044 /* AddDriversDataTableViewController.swift */,
+				3FE391D32BDB696800D002EC /* showDriversListViewController.swift */,
+				3F0F24DC2BDDA5FA0033F5D5 /* ActiveAlertOnAlertBoardViewController.swift */,
+				3F0F24DE2BDDA6230033F5D5 /* DrivingSafelyOnAlertBoardViewController.swift */,
+				3F0F24E02BDDA6370033F5D5 /* ScheduledOnAlertBoardViewController.swift */,
+				3FCCC1AB2BE0C2A0002C4A60 /* AlertTimmingsViewController.swift */,
+				3FE52CB82BE171D50085E044 /* NewAlertTableViewController.swift */,
+				3FE52CBA2BE1726C0085E044 /* RescheduleTheTruckOnAlertBoardTableViewController.swift */,
+				3FACE9502BE3618C00475536 /* EditProfileOfVehicleTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F124B292BD8BA7000325297 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F14BB162BE8F12C00377D12 /* cameraViewController.swift */,
+				3F7BF3032BE3C2E7003973B7 /* DriverLoginViewController.swift */,
+				3F7BF3042BE3C2E7003973B7 /* EditProfileOfDriverTableViewController.swift */,
+				3F14BB142BE8BCD500377D12 /* EndMViewController.swift */,
+				3F7BF3022BE3C2E7003973B7 /* LoginViewController.swift */,
+				3F7BF3072BE3C2E7003973B7 /* LogisticLoginViewController.swift */,
+				3F7BF3052BE3C2E7003973B7 /* MonitorMeViewController.swift */,
+				3F7BF3082BE3C2E7003973B7 /* SignUpViewController.swift */,
+				3FBF287B2BE679230009F799 /* SoundsViewController.swift */,
+				6FFB67F42BEDE499005C62E2 /* BlackViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F3B76CF2BCFE43500746745 = {
+			isa = PBXGroup;
+			children = (
+				3F3B76DA2BCFE43500746745 /* vehicleWise */,
+				3F3B76D92BCFE43500746745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3B76D92BCFE43500746745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B76D82BCFE43500746745 /* Napix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3B76DA2BCFE43500746745 /* vehicleWise */ = {
+			isa = PBXGroup;
+			children = (
+				3F124B262BD8BA0700325297 /* DataModel */,
+				3F124B242BD8B9DC00325297 /* LogisticInterface */,
+				3F124B232BD8B9C000325297 /* DriversInterface */,
+				3F3B76DB2BCFE43500746745 /* AppDelegate.swift */,
+				3F3B76DD2BCFE43500746745 /* SceneDelegate.swift */,
+				6FFB67F82BEE0A92005C62E2 /* monitor.png */,
+				3F3B76E12BCFE43500746745 /* Main.storyboard */,
+				3F3B76E42BCFE43600746745 /* Assets.xcassets */,
+				6F6FC9EB2BED3254009AB62F /* Green.png */,
+				6F6FC9EC2BED3254009AB62F /* RedImageNotFound.png */,
+				3FBF28832BE6E1920009F799 /* beep.mp3 */,
+				3F1E31B62BEB44700082DF05 /* face.mp3 */,
+				3F3B76E62BCFE43600746745 /* LaunchScreen.storyboard */,
+				3F7836DB2BE9E67A0007DFFD /* FDModel.mlmodel */,
+				3F14BB102BE8BB2400377D12 /* DDModel.mlmodel */,
+				3F3B76E92BCFE43600746745 /* Info.plist */,
+			);
+			path = vehicleWise;
+			sourceTree = "<group>";
+		};
+		3F9EE2722BE3C0A90010AB37 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BF2F62BE3C288003973B7 /* gif.swift */,
+				3F7BF2FA2BE3C294003973B7 /* output-onlinegiftools.gif */,
+				3F7BF2F82BE3C28E003973B7 /* giphy.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		3F9EE2732BE3C0BC0010AB37 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BF2FE2BE3C2CF003973B7 /* GoogleService-Info.plist */,
+				3F7BF2FC2BE3C2C0003973B7 /* Users.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		3FD505EE2BDADD91001A4C35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FD505EF2BDADDC0001A4C35 /* vehicleNumberDisplayCell.swift */,
+				3FD505F82BDAFB28001A4C35 /* MyDriversDisplayTableViewCell.swift */,
+				3F8091C92BDF6C36007FE0DF /* ScheduledAlertsTableViewCell.swift */,
+				3F8091CB2BDFA277007FE0DF /* showVehiclesListTableViewCell.swift */,
+				3FCCC1B52BE0E249002C4A60 /* ShowDriverListTableViewCell.swift */,
+				3F8091CD2BDFA828007FE0DF /* DrivingSafelyTableViewCell.swift */,
+				3F8091CF2BDFA9C8007FE0DF /* ActiveAlertTableViewCell.swift */,
+				3FCCC1AD2BE0C2B3002C4A60 /* AlertTimmingsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3B76D72BCFE43500746745 /* Napix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3B76EC2BCFE43600746745 /* Build configuration list for PBXNativeTarget "Napix" */;
+			buildPhases = (
+				3F3B76D42BCFE43500746745 /* Sources */,
+				3F3B76D52BCFE43500746745 /* Frameworks */,
+				3F3B76D62BCFE43500746745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Napix;
+			packageProductDependencies = (
+				3F47C3362BE3C946005B1083 /* FirebaseAuth */,
+				3F47C3382BE3C946005B1083 /* FirebaseAuthCombine-Community */,
+				3F47C33A2BE3C946005B1083 /* FirebaseDatabase */,
+				3F47C33C2BE3C946005B1083 /* FirebaseDatabaseSwift */,
+				3F47C33E2BE3C946005B1083 /* FirebaseFirestore */,
+				3F47C3402BE3C946005B1083 /* FirebaseFirestoreCombine-Community */,
+				3F47C3422BE3C946005B1083 /* FirebaseFirestoreSwift */,
+			);
+			productName = vehicleWise;
+			productReference = 3F3B76D82BCFE43500746745 /* Napix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3B76D02BCFE43500746745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3F3B76D72BCFE43500746745 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 3F3B76D32BCFE43500746745 /* Build configuration list for PBXProject "Napix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3B76CF2BCFE43500746745;
+			packageReferences = (
+				3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3F3B76D92BCFE43500746745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3B76D72BCFE43500746745 /* Napix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3B76D62BCFE43500746745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3B76E52BCFE43600746745 /* Assets.xcassets in Resources */,
+				6F6FC9EE2BED3254009AB62F /* RedImageNotFound.png in Resources */,
+				3F3B76E82BCFE43600746745 /* Base in Resources */,
+				6FFB67F92BEE0A92005C62E2 /* monitor.png in Resources */,
+				3F7BF2F92BE3C28E003973B7 /* giphy.gif in Resources */,
+				3F7BF2FB2BE3C294003973B7 /* output-onlinegiftools.gif in Resources */,
+				3F3B76E32BCFE43500746745 /* Base in Resources */,
+				3F1E31B72BEB44700082DF05 /* face.mp3 in Resources */,
+				3FBF28842BE6E1920009F799 /* beep.mp3 in Resources */,
+				3F7BF2FF2BE3C2CF003973B7 /* GoogleService-Info.plist in Resources */,
+				6F6FC9ED2BED3254009AB62F /* Green.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3B76D42BCFE43500746745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8091D02BDFA9C8007FE0DF /* ActiveAlertTableViewCell.swift in Sources */,
+				3FE391D42BDB696800D002EC /* showDriversListViewController.swift in Sources */,
+				3F3B76F82BCFEE1200746745 /* ProfileViewController.swift in Sources */,
+				3FACE9512BE3618C00475536 /* EditProfileOfVehicleTableViewController.swift in Sources */,
+				3FBF287C2BE679230009F799 /* SoundsViewController.swift in Sources */,
+				3F8091CA2BDF6C36007FE0DF /* ScheduledAlertsTableViewCell.swift in Sources */,
+				3F3B76F42BCFEDEF00746745 /* AlertBoardViewController.swift in Sources */,
+				3F14BB172BE8F12C00377D12 /* cameraViewController.swift in Sources */,
+				6FFB67F52BEDE499005C62E2 /* BlackViewController.swift in Sources */,
+				3F7836DC2BE9E67A0007DFFD /* FDModel.mlmodel in Sources */,
+				3FCCC1AC2BE0C2A0002C4A60 /* AlertTimmingsViewController.swift in Sources */,
+				3F14BB112BE8BB2400377D12 /* DDModel.mlmodel in Sources */,
+				3FE391D22BDB651200D002EC /* showVehicleListViewController.swift in Sources */,
+				3FE52CBB2BE1726C0085E044 /* RescheduleTheTruckOnAlertBoardTableViewController.swift in Sources */,
+				3F3B76DC2BCFE43500746745 /* AppDelegate.swift in Sources */,
+				3F7BF2F72BE3C288003973B7 /* gif.swift in Sources */,
+				3F8091CE2BDFA828007FE0DF /* DrivingSafelyTableViewCell.swift in Sources */,
+				3F7BF30B2BE3C2E7003973B7 /* LoginViewController.swift in Sources */,
+				3FCCC1AE2BE0C2B3002C4A60 /* AlertTimmingsTableViewCell.swift in Sources */,
+				3FD505F02BDADDC0001A4C35 /* vehicleNumberDisplayCell.swift in Sources */,
+				3F7BF30D2BE3C2E7003973B7 /* EditProfileOfDriverTableViewController.swift in Sources */,
+				3F0F24DD2BDDA5FA0033F5D5 /* ActiveAlertOnAlertBoardViewController.swift in Sources */,
+				3FD505F72BDAFAC4001A4C35 /* MyDriversListViewController.swift in Sources */,
+				3F8091CC2BDFA277007FE0DF /* showVehiclesListTableViewCell.swift in Sources */,
+				3FE52CB92BE171D50085E044 /* NewAlertTableViewController.swift in Sources */,
+				3FBF4F9E2BD11F9200AB59FC /* DataModel.swift in Sources */,
+				3F14BB152BE8BCD500377D12 /* EndMViewController.swift in Sources */,
+				3F0F24E12BDDA6370033F5D5 /* ScheduledOnAlertBoardViewController.swift in Sources */,
+				3F7BF2FD2BE3C2C0003973B7 /* Users.swift in Sources */,
+				3FCCC1B62BE0E249002C4A60 /* ShowDriverListTableViewCell.swift in Sources */,
+				3F3B76F62BCFEE0600746745 /* VehicleListViewController.swift in Sources */,
+				3F7BF30E2BE3C2E7003973B7 /* MonitorMeViewController.swift in Sources */,
+				3F0F24DF2BDDA6230033F5D5 /* DrivingSafelyOnAlertBoardViewController.swift in Sources */,
+				3F7BF3102BE3C2E7003973B7 /* LogisticLoginViewController.swift in Sources */,
+				3FD505F92BDAFB28001A4C35 /* MyDriversDisplayTableViewCell.swift in Sources */,
+				3F3B76DE2BCFE43500746745 /* SceneDelegate.swift in Sources */,
+				3FACE9532BE37F5A00475536 /* AddVehicleDataTableViewController.swift in Sources */,
+				3F7BF30C2BE3C2E7003973B7 /* DriverLoginViewController.swift in Sources */,
+				3FE52CB52BE1703B0085E044 /* AddDriversDataTableViewController.swift in Sources */,
+				3F7BF3112BE3C2E7003973B7 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F3B76E12BCFE43500746745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3B76E22BCFE43500746745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3B76E62BCFE43600746745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3B76E72BCFE43600746745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3B76EA2BCFE43600746745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3B76EB2BCFE43600746745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3B76ED2BCFE43600746745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92L6CUDN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vehicleWise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give access to camera";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Utsav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3B76EE2BCFE43600746745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L92L6CUDN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vehicleWise/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Give access to camera";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Utsav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3B76D32BCFE43500746745 /* Build configuration list for PBXProject "Napix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B76EA2BCFE43600746745 /* Debug */,
+				3F3B76EB2BCFE43600746745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3B76EC2BCFE43600746745 /* Build configuration list for PBXNativeTarget "Napix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B76ED2BCFE43600746745 /* Debug */,
+				3F3B76EE2BCFE43600746745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F47C3362BE3C946005B1083 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3F47C3382BE3C946005B1083 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3F47C33A2BE3C946005B1083 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3F47C33C2BE3C946005B1083 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3F47C33E2BE3C946005B1083 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3F47C3402BE3C946005B1083 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		3F47C3422BE3C946005B1083 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F47C3352BE3C946005B1083 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F3B76D02BCFE43500746745 /* Project object */;
+}
